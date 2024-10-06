@@ -1,7 +1,12 @@
+section {
+    background-color: rosybrown;
+}
 body {
-  height:fit-content;
-  width:fit-content;
-  overflow: scroll;
+    
+    margin: 0;  
+    height: 100vh; 
+    width: 100vw; 
+    background-color: #e0e0e0;
 }
 
 .Header .Header-image {
@@ -9,7 +14,7 @@ body {
     width: 60px;
     border-radius: 50px;
  }
-#Content-Hotel{
+#Content-Hotel-Img{
     width: 250px;
     height:200px;
 }
@@ -17,4 +22,10 @@ body {
 #Footer-image{
     height: 20px;
     width: 22px;
+}
+#Content-Hotel {
+    background-color: rgb(132,136,139);
+    margin: 2%;
+    width: 40%;
+
 }

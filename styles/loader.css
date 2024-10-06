@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+.Loader {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 12px solid #f3f3f3; /* Light gray background */
+    border-top: 12px solid #444444; /* Dark gray for the top */
+    animation: spin 1s linear infinite; /* Animation */
+}

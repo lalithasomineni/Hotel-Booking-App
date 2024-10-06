@@ -1,9 +1,16 @@
+section {
+    background-color: rosybrown;
+}
+
+html {
+    margin: 0;
+}
 body {
     
     margin: 0;  
     height: 100vh; 
     width: 100vw; 
-    overflow: scroll; 
+    background-color: #e0e0e0;
 }
 .Header .Header-image {
    height: 60px;
@@ -19,4 +26,21 @@ body {
 #Footer-image{
     height: 20px;
     width: 22px;
+}
+#Content-Hotel{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+
+}
+.Content-Forms{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 1%;
+}
+.Content-Description{
+    margin-left: 4%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-right: 4%;
 }
