@@ -2,3 +2,25 @@
     height: 300px;;
     width: 300px;
 }
+body {
+    
+    margin: 0;  
+    height: 100vh; 
+    width: 100vw; 
+    overflow: scroll; 
+}
+.Header .Header-image {
+   height: 60px;
+   width: 60px;
+   border-radius: 50px;
+}
+
+ #Content-image{
+    height: 150px;
+    width: 150px;
+}
+
+#Footer-image{
+    height: 20px;
+    width: 22px;
+}

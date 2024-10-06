@@ -10,17 +10,18 @@
 
 <body>
     <div>
-        <div class = "Header">
+        <section class = "Header">
            <a href="./index.html"> <img class = "Header-image" src = "assests/images/logo.png" alt="logo"/></a>
             <a id = "Header-login" href = "login.html" target="_blank">Login</a>
             
-        </div>
+        </section>
     <div class = "Content">
         <div Class = "Content-Links">
-            <a href = "">List View</a><div></div>
-            <a href = "">Map View</a>
+            <ul>
+           <li> <a href = "#listofhotels">List View</a></li> 
+           <li> <a href = "#mapview">Map View</a></li> </ul>
         </div>
-        <div class = "Content-Hotels">
+        <div class = "Content-Hotels" id = "listofhotels">
             <a href = "detail.html">
         <div>
            <img id = "Content-Hotel"src = "https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt ="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"/>
@@ -41,13 +42,13 @@
             <p>Pool Available with every room</p>
          </div>
         </div>
-        <div>
+        <div id = "mapview">
             <img  src = "https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" alt = "https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png"/>
             <p>Map View</p>
         </div>
         
     </div>
-    <footer class = "Footer">
+    <section class = "Footer">
         <a href = "./contact.html" id = "Footer-Contact">Contact Us</a>
         <div class = "Footer-images">
         <a  href = "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target="_blank">
@@ -61,7 +62,7 @@
         </a>
     </div>
     <p>&copy; 2020 Room Search PVT LTD</p>
-    </footer>
+</section>
 </div>
 </body>
 </html>
