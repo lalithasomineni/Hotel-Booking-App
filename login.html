@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Login</title>
 </head>
-
 <body>
     <div>
-        <div class = "Login">LOGIN</div>
-</div>
+        <div class="Login">
+            <form class="login-Form">
+                <label for="username">Username:</label>
+                <input id="username" placeholder="Enter username" required><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter password" required><br>
+                <button type="button" id="Login-button" aria-required="true">Login</button> <!-- Changed type to "submit" -->
+            </form>
+        </div>
+    </div>
+    <script src="scripts/login.js"></script>
 </body>
 </html>
