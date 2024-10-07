@@ -1,52 +1,145 @@
- #Content-image {
-    height: 300px;;
-    width: 300px;
-}
-html{
+html {
     margin: 0;
 }
-section {
-    background-color: rosybrown;
+
+
+.Header {
+    display: flex;                     /* Use flexbox for layout */
+    justify-content: space-between;    /* Space between logo and login */
+    align-items: center;               /* Center items vertically */
+    padding: 10px 20px;                /* Add padding for spacing */
+    position: fixed;                   /* Fix the header to the top */
+    top: 0;                            /* Align to the top */
+    left: 0;                           /* Align to the left */
+    right: 0;                          /* Align to the right */
+    height: 70px;                      /* Set a height for the header */         /* Set a background color for visibility */
+                   /* Ensure it stays on top of other content */
 }
-body {
+
+#Content-Search-Bar{
+    justify-content: center;
+    text-align: center;
+    margin-top: auto;
+    border: solid transparent;
+    border-radius: 12px;
+    font-size: 16px;
+    padding: 165px;
     
-    margin: 0;  
-    height: 100vh; 
-    width: 100vw; 
-    background-color: #e0e0e0;
+
+    
 }
+
+#Content-Search-Bar input {
+    border: solid transparent 1px #f1f1f1;
+  
+    border-radius: 12px;
+    font-size: 16px;
+    width: 40%;
+    size: 16px;
+
+    padding: 12px 18px;
+
+
+}
+
+
 .Header .Header-image {
-   height: 60px;
-   width: 60px;
-   border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
 }
 
- #Content-image{
-    height: 150px;
-    width: 150px;
-}
-
-#Footer-image{
-    height: 20px;
-    width: 22px;
+#Header-login {
+    text-align: center; /* Center the text in its container */
+    padding: 0 15px; /* Add some padding for spacing */
+    text-decoration: none;
+    color: black;
 }
 
 .Content .Content-Search {
     background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
-    height: 380px;
+    height: 400px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-#Content-Images{
-    
-    margin : 50px auto;
+#Content-Images {
+    margin: 50px auto;
     text-align: center;
-    
 }
 
 #Content-image {
+    height: 150px; /* Keep your desired height */
+    width: 150px; /* Keep your desired width */
     padding: 4%;
     border-radius: 25%;
 }
+
+#Footer-image {
+    height: 20px;
+    width: 22px;
+    text-decoration: none;
+    color: rosybrown;
+}
+section {
+    background-color: rosybrown;
+
+    
+}
+.Footer .Footer-images {
+    text-align: end;
+    align-items: center;
+    padding: 0 15px; 
+   
+}
+#Footer-Contact {
+    /* Space below the contact link */
+
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+#Footer-Copyright {
+    text-align: center;              /* Center text */              /* Add vertical padding for space */
+             /* Add top margin to create space from other elements */
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;  
+    height: 100vh; 
+    width: 100vw; 
+    background-color: #e0e0e0;
+    padding-bottom: 180px; /* Adjust this value based on the footer height */
+}
+
+.Footer {
+    position: fixed;        /* Fix the footer to the bottom */
+    left: 0;               
+    right: 0;              
+    bottom: 0;             /* Align to the bottom */
+    padding: 10px 0;       /* Add padding for spacing */
+    background-color: rosybrown; /* Make the footer visible */
+    z-index: 100;          /* Ensure it stays on top of other content */
+}
+   
+
+    #Content-view-more {
+        display: block;          /* Make it a block element for centering */
+        margin: 20px auto;     /* Center horizontally with margin auto */
+        text-align: center;     /* Center the text inside */
+        font-size: 16px;        /* Adjust font size as needed */
+        text-decoration: none;   /* Remove underline */
+        color: black;  
+        text-align: center;   
+        justify-items: center;
+        position: relative; /* Enable positioning */
+        top: -50px; /* Adjust this value to move it up */
+        margin-bottom: 30px;
+    }

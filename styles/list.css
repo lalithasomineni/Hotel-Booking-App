@@ -1,31 +1,132 @@
 section {
     background-color: rosybrown;
 }
+
 body {
-    
     margin: 0;  
     height: 100vh; 
     width: 100vw; 
     background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;  
+    overflow-x: hidden;
+}
+
+#Content-Links-List-View {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.Content .Content-Links {
+    margin-top: 100px; /* Adjust as needed */
+    text-align: center; /* Center the links */
+}
+
+.Content .Content-Links ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the list items */
+}
+
+.Content .Content-Links ul li {
+    margin: 0 30px; /* Adjust spacing between items */
 }
 
 .Header .Header-image {
     height: 60px;
     width: 60px;
     border-radius: 50px;
- }
-#Content-Hotel-Img{
-    width: 250px;
-    height:200px;
 }
 
-#Footer-image{
+#Content-Hotel-Img {
+    width: 250px;
+    height: 200px;
+}
+
+#Footer-image {
     height: 20px;
     width: 22px;
 }
+
 #Content-Hotel {
-    background-color: rgb(132,136,139);
+    background-color: rgb(132, 136, 139);
     margin: 2%;
     width: 40%;
+    display: inline-block;
+}
 
+.Header {
+    display: flex;                     /* Use flexbox for layout */
+    justify-content: space-between;    /* Space between logo and login */
+    align-items: center;               /* Center items vertically */
+    padding: 10px 20px;                /* Add padding for spacing */
+    position: fixed;                   /* Fix the header to the top */
+    top: 0;                            /* Align to the top */
+    left: 0;                           /* Align to the left */
+    right: 0;                          /* Align to the right */
+    height: 50px;                      /* Set a height for the header */
+}
+
+#Header-login {
+    text-align: center; /* Center the text in its container */
+    padding: 0 15px; /* Add some padding for spacing */
+    text-decoration: none;
+    color: black;
+}
+
+.Footer {
+    position: fixed;        /* Fix the footer to the bottom */
+    left: 0;               
+    right: 0;              
+    bottom: 0;             /* Align to the bottom */
+    padding: 10px 0;       /* Add padding for spacing */
+    background-color: rosybrown; /* Make the footer visible */
+    z-index: 100;          /* Ensure it stays on top of other content */
+}
+
+#Footer-image {
+    height: 20px;
+    width: 22px;
+    text-decoration: none;
+    color: rosybrown;
+}
+
+.Footer .Footer-images {
+    text-align: end;
+    align-items: center;
+    padding: 0 15px; 
+}
+
+#Footer-Contact {
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    margin-right: 1400px;
+    justify-content: center;
+}
+.mapview{
+    visibility: hidden;
+}
+#Footer-Copyright {
+   text-align: center;
+   
+}
+
+#MapView {
+    width: 100%;
+    background-color: #e0e0e0;
+}
+
+/* Ensure content is visible */
+.Content {
+    margin-top: 60px; /* Space for the header */
+    margin-bottom: 70px; /* Ensure space for footer */
+    padding-bottom: 20px; /* Extra space at the bottom */
+}
+
+.Content-Hotels {
+    padding-bottom: 80px; /* Additional space at the bottom to prevent overlap */
 }
